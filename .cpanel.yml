@@ -1,4 +1,4 @@
 deployment:
       tasks:
-        - export DEPLOYPATH=/home/ericgreene/  # Add /<app_folder> if required
+        - export DEPLOYPATH=/home/ericgreene/public_html/ # Add /<app_folder> if required
         - /bin/cp -r * $DEPLOYPATH
